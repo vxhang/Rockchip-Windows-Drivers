@@ -3,12 +3,12 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - vxhang-build
     tags:
       - '*'
   pull_request:
     branches:
-      - master
+      - vxhang-build
       
 env:
   SOLUTION_FILE_PATH: .\build\RockchipDrivers.sln
